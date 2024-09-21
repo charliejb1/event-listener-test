@@ -1,0 +1,20 @@
+#show-box{
+    border: 2px solid black;
+    width: 300px;
+    max-height: 200px;
+    overflow: hidden;
+
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#show-box.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
